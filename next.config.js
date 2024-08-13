@@ -1,6 +1,10 @@
 const path = require('path')
- 
+
 module.exports = {
+  basePath: "/portfolio",
+
+  output: "export",  // <=== enables static exports
+
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
