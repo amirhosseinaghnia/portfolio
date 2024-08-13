@@ -7,7 +7,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "deploy": "gh-pages -d build",
     "lint": "next lint"
   },
   "dependencies": {
@@ -30,7 +29,6 @@
     "eslint-config-next": "latest",
     "postcss": "latest",
     "sass": "^1.69.5",
-    "tailwindcss": "latest",
-    "gh-pages": "^5.0.0"
+    "tailwindcss": "latest"
   }
 }
